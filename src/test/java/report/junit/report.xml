@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="83.68" tests="4" skipped="0" failures="0" errors="0">
+<testcase classname="Project Document" name="Amazon Userid Test" time="68.395">
+<system-out><![CDATA[
+Given Browser "chrome" is open with url "https://www.amazon.in/"............passed
+And i click signin..........................................................passed
+When I enter userid "paragguide@yahoo.co.in"................................passed
+And click continue..........................................................passed
+Then password txtbox must come..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Project Document" name="Amazon password Test" time="1.269">
+<system-out><![CDATA[
+Given userid is valid.......................................................passed
+When I enter invalid password...............................................passed
+Then error must come........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Project Document" name="Google Test - Example #1.1" time="6.768">
+<system-out><![CDATA[
+Given I went to https://www.google.com......................................passed
+When I search for the pizza for location Delhi..............................passed
+Then search result must come................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Project Document" name="Google Test - Example #1.2" time="6.905">
+<system-out><![CDATA[
+Given I went to https://www.google.com......................................passed
+When I search for the burger for location Lucknow...........................passed
+Then search result must come................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
